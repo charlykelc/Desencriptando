@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background: linear-gradient(to right, #5e1add, #ffa088); 
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1;
+}
+
+main {
+  max-width: 50rem;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.titulo {
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+  color: #7fc085;
+  font-weight: 700;
+}
+
+.box {
+  padding: 100rem;
+  margin: 0 0.100rem;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 5rem;
+  flex: 1;
+}
+
+label {
+  color: #FFFFFF;
+  background-color: #1bb63d;
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button__container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  width: 40%;
+  padding: 1rem 0.5rem;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;  
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7fc085; 
+}
+
+.btn:hover {
+  background-color: #6caf73; 
+}
+
+.text__input {
+  border-radius: 1rem;
+  border: 5px solid rgba(155, 16, 16, 0.2);
+  padding: 1rem; 
+  width: 100%; 
+  margin-top: 1rem;
+}
+
+.error {
+  background-color: #b7322c;    
+  padding: 0.8rem;    
+  font-size: 1.2rem;    
+  margin: 1rem auto 0;
+  color: white;   
+  text-align: center; 
+  text-transform: uppercase;
+  font-weight: bold;    
+  border-radius: 0.5rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;  
+  background-color: #99418a;
+  padding: 0.8rem 0;
+}
+
+.imagen {
+  width: 80%; 
+  margin: 1 auto; 
+  border-radius: 100rem;
+  object-fit: cover;
+}
